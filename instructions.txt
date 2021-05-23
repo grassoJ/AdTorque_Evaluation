@@ -1,0 +1,42 @@
+Instructions: Using HTML and CSS create the website based on the mockup.jpg image.
+Make it as close as possible regarding the layout and spacing
+
+- Use either flex or grid to create the basic layout (no floats)
+- The site should be fully responsive on both mobile and desktop (it should flow between the two without breaking)
+- No need to create a mobile menu, just have the navigation links arranged vertically rather than horizontally
+
+Colours to use:
+- Button bg colour #fa6400
+- Button colour #fff
+- Title colour #1f2857
+- Body text colour #666
+- Footer bg #ebebeb (border #ccc)
+
+Font sizes and weights
+- Headings 45px/300
+- Header (navigation and button) 20px/600
+- Content 16px/400
+- Button 16px/600
+
+Images to use:
+- Banner <img src="images/brand-name-logo.png" alt="Brand Name">
+- Content <img src="images/engage-supporters.jpg" alt="Engage Supporters">
+- Logos
+<img src="images/logos/autism-awareness.png" alt="Autism Awareness">
+<img src="images/logos/animal-liberation.png" alt="Animal Liberation">
+<img src="images/logos/brain-foundation.png" alt="Brain Foundation">
+<img src="images/logos/migraine-headache-australia.png" alt="Migraine Headache Australia">
+<img src="images/logos/sporting-chance.png" alt="Sporting Chance">
+<img src="images/logos/stjosephs-college.png" alt="ST Josephs College">
+
+Styles you can use for the button arrow:
+.btn:after {
+	display: inline-block;
+	content: '';
+	width: 0.25em;
+	height: 0.25em;
+	margin-left: 20px;
+	border-style: solid;
+	border-width: 0.15em 0.15em 0 0;
+	transform: rotate(45deg);	
+}
